@@ -1,0 +1,70 @@
+/* Comentário em CSS
+
+seletor{
+	propriedade: valor;
+}
+*/
+
+p{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+*{
+	margin: 0px;
+}
+
+body{
+	font-family: courier;
+	color: black;
+}
+
+header{
+	background-color: #40E0D0;
+	height: 30px;
+}
+
+footer{
+	clear: both;
+	background-color: #40E0D0;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+#logo{
+	float: left;
+	width: 60%;
+}
+
+#links{
+	float: right;
+}
+
+#links a{
+	text-decoration: none;
+	color: black;
+}
+
+#links a:hover{
+	background-color: #00CED1;
+}
+
+
+#div_esquerda{
+	float: left;
+	width: 60%;
+
+}
+
+#div_direita{
+	float: right;
+	width: 40%;
+}
+
+.container{
+	clear: both;
+	background-image: url(fundo.jpg);
+	min-height: 500px;
+	background-size: 100;
+}
